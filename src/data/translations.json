@@ -1,0 +1,371 @@
+{
+  "en": {
+    "nav": {
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience",
+      "education": "Education",
+      "projects": "Projects",
+      "volunteering": "Volunteering",
+      "contact": "Contact"
+    },
+    "hero": {
+      "greeting": "Hello, I'm",
+      "name": "Om Sawarkar",
+      "title": "Full Stack Developer/ AI/ML Engineer",
+      "subtitle": "Crafting digital experiences with code & creativity",
+      "cta": "Explore My Work",
+      "resume": "Download Resume",
+      "touch": "Touch the orb"
+    },
+    "about": {
+      "heading": "About Me",
+      "p1": "I'm a passionate Full Stack Developer and Information Technology student at Government College of Engineering,Amravati. I specialize in building modern, performant web applications using React, Python & SQL.",
+      "p2": "With professional experience at ANIX AI,Mumbai , I've honed my skills in developing scalable solutions, from real-time chat applications to dynamic enterprise platforms. I'm driven by the intersection of elegant code and impactful user experiences.",
+      "p3": "Beyond coding, I'm deeply invested in Data Structures & Algorithms,and reallife problem solving projects , and continuously expanding my technical toolkit.",
+      "p4": "Grade : 8.76 CGPA"
+    },
+    "skills": {
+      "heading": "Tech Arsenal",
+      "categories": {
+        "languages": "Languages",
+        "frontend": "Frontend",
+        "backend": "Backend & DB",
+        "tools": "Tools & Core",
+        "aiml": "AI & ML"
+      }
+    },
+    "experience": {
+      "heading": "Experience",
+      "timeline": [
+        {
+          "company": "ANIX AI,Mumbai",
+          "role": "Fullstack Web Developer Intern",
+          "period": "April 2025 – Jul 2025",
+          "description": "Developed and optimized internal tools and features for the lending platform, working with modern web technologies and collaborating with cross-functional teams.",
+          "tech": [
+            "React",
+            "JavaScript",
+            "REST APIs"
+          ]
+        },
+        {
+          "company": "Government College Of Engineering ,Amravati",
+          "role": "Training And Plecement Student Co-ordinator ",
+          "period": "Sep 2025 – May 2026",
+          "description": "• Coordinated training sessions, workshops, and campus recruitment drives between students and recruiters"
+        }
+      ]
+    },
+    "education": {
+      "heading": "Education",
+      "timeline": [
+        {
+          "college": "Government College Of Engineering ,Amravati",
+          "degree": "Bachelor of Technology in Information Technology",
+          "period": "2022 – 2026",
+          "cgpa": "8.76 CGPA"
+        },
+        {
+          "college": "Z.P.Agarkar Jr.Science College ,Akola",
+          "degree": "HSC",
+          "period": "2021 – 2022",
+          "percentage": "91.67%"
+        },
+        {
+          "School": "Bharat Vidyalaya ,Akola",
+          "degree": "SSC",
+          "period": "2019 – 2020",
+          "percentage": "93.60%"
+        }
+      ]
+    },
+    "projects": {
+      "heading": "Projects",
+      "items": [
+        {
+          "title": "Health Sense: AI-Powered Smart Healthcare System ",
+          "description": "Built a smart healthcare platform integrating ML-based disease prediction, an NLP chatbot for patient queries, and IoT sensors for real-time health monitor . Developed a web dashboard for visualizing vitals, preventive insights, and personalized health recommendations.",
+          "tech": [
+            "ML",
+            "IoT",
+            "NLP",
+            "JavaScript"
+          ],
+          "link": "https://github.com/Oms2004/HealthSence-AI"
+        },
+        {
+          "title": "EmpowerAid: NGO Crowdfunding Platform  ",
+          "description": "Built a NGO crowdfunding platform integrating ML-based disease prediction, an NLP chatbot for patient queries, and IoT sensors for real-time health monitor . Developed a web dashboard for visualizing vitals, preventive insights, and personalized health recommendations.",
+          "tech": [
+            "Full Stack",
+            "Next.js",
+            " MongoDB",
+            "JWT"
+          ],
+          "link": "https://github.com/Oms2004/Eco-Fund"
+        },
+        {
+          "title": "Medichat:Intelligent Medical Chatbot",
+          "description": "Developed Medichat,An AI chatbot leveraging a medical encyclopedia module to deliver accurate solution to medical queries ,Integrated voice recognition for interaction ,userfriendly interface for reliable health guidance.",
+          "tech": [
+            "React JS",
+            "ML",
+            "AI",
+            "NLP",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Python"
+          ],
+          "link": "#"
+        },
+        {
+          "title": "My Virtual Assistant",
+          "description": "Built a (English & Hindi) voice assistant with features like web search, weather/time updates, calculator, and customizable persona. Integrated Google Gemini API, SpeechRecognition, and secure user authentication.",
+          "tech": [
+            "React JS",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Google Gemini API",
+            "SpeechRecognition"
+          ],
+          "link": "https://github.com/Oms2004/virtualassist"
+        },
+        {
+          "title": "Movie Recommendation System",
+          "description": "A ML-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts",
+          "tech": [
+            "React JS",
+            "ML",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "NLP"
+          ],
+          "link": "#"
+        },
+        {
+          "title": "Developer Portfolio",
+          "description": "A modern, responsive portfolio website showcasing projects and skills with smooth animations and an interactive UI.",
+          "tech": [
+            "React",
+            "Framer Motion",
+            "Tailwind CSS"
+          ],
+          "link": "https://omiportfolio.vercel.app"
+        }
+      ]
+    },
+    "volunteering": {
+      "heading": "Volunteering",
+      "timeline": [
+        {
+          "organization": "NGO: Friends Of Children (FOC),Pune",
+          "role": "Volunteer",
+          "period": "Jan 2023 - Feb 2026",
+          "description": "Actively contributed to empowering underprivileged students by supporting educational and social initiatives. Engaged in community outreach programs like tree plantations, old age home visits, and career guidance sessions. Personally benefited from FOC’s educational assistance, fostering a deep commitment to giving back.",
+          "skills": [
+            "Mentoring",
+            "Open Source",
+            "Webinars",
+            "Community Building",
+            "Teamwork",
+            "Communication",
+            "Leadership"
+          ]
+        },
+        {
+          "organization": "PRAJWALAN'24 -Central India's Biggest TechFest ,GCOEA",
+          "role": " Prize Distribution & Reception Commitee Co-Convenor",
+          "period": "Jan 2024 - March 2024 ",
+          "description": "Organized and executed prize distribution and reception activities for a large-scale tech fest, ensuring smooth coordination between participants, organizers, and guests.",
+          "skills": [
+            "Event Management",
+            "Coordination",
+            "Teamwork",
+            "Communication",
+            "Leadership"
+          ]
+        },
+        {
+          "organization": "INTERNSHALA",
+          "role": "ISP Program College Ambassador",
+          "period": "sep 2024 - May 2025 ",
+          "description": "Volunteered as a mentor to help junior learners with tech concepts. Conducted doubt sessions, reviewed assignments, and motivated learners by sharing learning strategies and resources.",
+          "skills": [
+            "Mentorship",
+            "Technical Support",
+            "Communication",
+            "Empathy",
+            "Leadership"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Get In Touch",
+      "subtitle": "Have a project in mind? Let's build something amazing together.",
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "messagePlaceholder": "Your Message",
+      "send": "Send Message",
+      "or": "Or connect with me on"
+    }
+  },
+  "de": {
+    "nav": {
+      "about": "Über mich",
+      "skills": "Fähigkeiten",
+      "experience": "Erfahrung",
+      "education": "Ausbildung",
+      "projects": "Projekte",
+      "volunteering": "Ehrenamt",
+      "contact": "Kontakt"
+    },
+    "hero": {
+      "greeting": "Hallo, ich bin",
+      "name": "Om Sawarkar",
+      "title": "Full Stack Entwickler / AI/ML Ingenieur",
+      "subtitle": "Digitale Erlebnisse mit Code und Kreativität gestalten",
+      "cta": "Meine Arbeit entdecken",
+      "resume": "Lebenslauf herunterladen",
+      "touch": "Berühre die Kugel"
+    },
+    "about": {
+      "heading": "Über Mich",
+      "p1": "Ich bin ein leidenschaftlicher Full Stack Entwickler und Informationstechnologie-Student am Government College of Engineering, Amravati. Ich spezialisiere mich auf moderne, leistungsstarke Webanwendungen mit React, Python und SQL.",
+      "p2": "Mit beruflicher Erfahrung bei ANIX AI ,Mumbai  habe ich meine Fähigkeiten in der Entwicklung skalierbarer Lösungen weiterentwickelt – von Echtzeit-Chat-Anwendungen bis hin zu dynamischen Unternehmensplattformen. Mich motiviert die Kombination aus elegantem Code und wirkungsvollen Benutzererlebnissen.",
+      "p3": "Neben dem Programmieren beschäftige ich mich intensiv mit Datenstrukturen und Algorithmen,und reallife problem solving projects, und der kontinuierlichen Erweiterung meiner technischen Fähigkeiten.",
+      "p4": "Note : 8.76 CGPA"
+    },
+    "skills": {
+      "heading": "Tech Arsenal",
+      "categories": {
+        "languages": "Programmiersprachen",
+        "frontend": "Frontend",
+        "backend": "Backend & Datenbanken",
+        "tools": "Tools & Kerntechnologien",
+        "aiml": "KI & ML"
+      }
+    },
+    "experience": {
+      "heading": "Erfahrung",
+      "timeline": [
+        {
+          "company": "ANIX AI, Mumbai",
+          "role": "Fullstack Web Developer Praktikant",
+          "period": "April 2025 – Jul 2025",
+          "description": "Entwicklung und Optimierung interner Tools und Funktionen für die Plattform mit modernen Webtechnologien sowie Zusammenarbeit mit funktionsübergreifenden Teams.",
+          "tech": [
+            "React",
+            "JavaScript",
+            "REST APIs"
+          ]
+        },
+        {
+          "company": "Government College Of Engineering, Amravati",
+          "role": "Training And Placement Student Coordinator",
+          "period": "Sep 2025 – Mai 2026",
+          "description": "Koordination von Trainingsprogrammen, Workshops und Campus-Rekrutierungsprozessen zwischen Studenten und Unternehmen."
+        }
+      ]
+    },
+    "projects": {
+      "heading": "Projekte",
+      "items": [
+        {
+          "title": "Health Sense: KI-gestütztes Smart Healthcare System",
+          "description": "Entwicklung einer intelligenten Gesundheitsplattform mit ML-basierter Krankheitsvorhersage, einem NLP-Chatbot für Patientenanfragen und IoT-Sensoren zur Echtzeit-Überwachung der Gesundheit. Zusätzlich wurde ein Web-Dashboard zur Visualisierung von Vitaldaten, Präventionstipps und personalisierten Gesundheitsempfehlungen erstellt.",
+          "tech": [
+            "ML",
+            "IoT",
+            "NLP",
+            "JavaScript"
+          ],
+          "link": "#"
+        },
+        {
+          "title": "EmpowerAid: NGO Crowdfunding Plattform",
+          "description": "Entwicklung einer Crowdfunding-Plattform für NGOs mit Benutzer- und NGO-Login, sicheren Spendenfunktionen und transparenter Projektunterstützung.",
+          "tech": [
+            "Full Stack",
+            "Next.js",
+            "MongoDB",
+            "JWT"
+          ],
+          "link": "#"
+        },
+        {
+          "title": "Developer Portfolio",
+          "description": "Eine moderne, responsive Portfolio-Website zur Präsentation von Projekten und Fähigkeiten mit flüssigen Animationen und interaktiver Benutzeroberfläche.",
+          "tech": [
+            "React",
+            "Framer Motion",
+            "Tailwind CSS"
+          ],
+          "link": "https://omiportfolio.vercel.app"
+        }
+      ]
+    },
+    "education": {
+      "heading": "Ausbildung",
+      "timeline": [
+        {
+          "college": "Government College Of Engineering, Amravati",
+          "degree": "Bachelor of Technology in Informationstechnologie",
+          "period": "2022 – 2026",
+          "cgpa": "8.76 CGPA"
+        },
+        {
+          "college": "Z.P.Agarkar Jr.Science College, Akola",
+          "degree": "HSC",
+          "period": "2021 – 2022",
+          "percentage": "91.67%"
+        },
+        {
+          "School": "Bharat Vidyalaya, Akola",
+          "degree": "SSC",
+          "period": "2019 – 2020",
+          "percentage": "93.60%"
+        }
+      ]
+    },
+    "volunteering": {
+      "heading": "Ehrenamt",
+      "timeline": [
+        {
+          "organization": "NGO: Friends Of Children (FOC), Pune",
+          "role": "Freiwilliger",
+          "period": "Jan 2023 - Feb 2026",
+          "description": "Aktiver Beitrag zur Förderung benachteiligter Schüler durch Unterstützung von Bildungs- und Sozialinitiativen. Teilnahme an Baumpflanzaktionen, Besuchen in Altenheimen und Berufsberatungen.",
+          "skills": ["Mentoring", "Open Source", "Webinare", "Gemeinschaftsarbeit", "Teamarbeit", "Kommunikation", "Führung"]
+        },
+        {
+          "organization": "PRAJWALAN'24 - Größtes TechFest Zentralindiens, GCOEA",
+          "role": "Preisverleihung & Empfangskomitee Co-Convenor",
+          "period": "Jan 2024 - März 2024",
+          "description": "Organisation und Durchführung der Preisverleihung und Empfangsaktivitäten für ein großes Tech-Fest.",
+          "skills": ["Eventmanagement", "Koordination", "Teamarbeit", "Kommunikation", "Führung"]
+        },
+        {
+          "organization": "INTERNSHALA",
+          "role": "ISP-Programm College-Botschafter",
+          "period": "Sep 2024 - Mai 2025",
+          "description": "Freiwillige Mentorentätigkeit für jüngere Lernende bei technischen Konzepten. Durchführung von Fragestunden und Motivation der Lernenden.",
+          "skills": ["Mentorship", "Technischer Support", "Kommunikation", "Empathie", "Führung"]
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Kontakt aufnehmen",
+      "subtitle": "Haben Sie ein Projekt im Sinn? Lassen Sie uns gemeinsam etwas Großartiges entwickeln.",
+      "namePlaceholder": "Ihr Name",
+      "emailPlaceholder": "Ihre E-Mail",
+      "messagePlaceholder": "Ihre Nachricht",
+      "send": "Nachricht senden",
+      "or": "Oder verbinden Sie sich mit mir auf"
+    }
+  }
+}

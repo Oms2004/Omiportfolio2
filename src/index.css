@@ -1,0 +1,330 @@
+@import "tailwindcss";
+
+/* ===== CSS Custom Properties ===== */
+:root {
+  /* Light theme */
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-card: rgba(255, 255, 255, 0.7);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --accent: #7c3aed;
+  --accent-2: #06b6d4;
+  --accent-glow: rgba(124, 58, 237, 0.3);
+  --border: rgba(148, 163, 184, 0.3);
+  --glass-bg: rgba(255, 255, 255, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  --orb-1: rgba(124, 58, 237, 0.15);
+  --orb-2: rgba(6, 182, 212, 0.12);
+  --orb-3: rgba(236, 72, 153, 0.1);
+
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.75;
+  font-weight: 400;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Dark theme */
+.dark {
+  --bg-primary: #030712;
+  --bg-secondary: #0f172a;
+  --bg-card: rgba(15, 23, 42, 0.7);
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --accent: #a78bfa;
+  --accent-2: #22d3ee;
+  --accent-glow: rgba(167, 139, 250, 0.4);
+  --border: rgba(100, 116, 139, 0.3);
+  --glass-bg: rgba(15, 23, 42, 0.6);
+  --glass-border: rgba(100, 116, 139, 0.2);
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --orb-1: rgba(167, 139, 250, 0.2);
+  --orb-2: rgba(34, 211, 238, 0.15);
+  --orb-3: rgba(244, 114, 182, 0.12);
+
+  color-scheme: dark;
+}
+
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* ===== Custom Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-2);
+}
+
+/* ===== Selection ===== */
+::selection {
+  background: var(--accent);
+  color: white;
+}
+
+/* ===== Glassmorphism Utility ===== */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow);
+}
+
+.glass-strong {
+  background: var(--glass-bg);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow);
+}
+
+/* ===== Floating Gradient Orbs (Background) ===== */
+.floating-orb {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: -1;
+  transition: background 0.6s ease;
+}
+
+.floating-orb-1 {
+  width: 500px;
+  height: 500px;
+  background: var(--orb-1);
+  top: -10%;
+  left: -5%;
+  animation: float-orb-1 20s ease-in-out infinite;
+}
+
+.floating-orb-2 {
+  width: 400px;
+  height: 400px;
+  background: var(--orb-2);
+  top: 50%;
+  right: -10%;
+  animation: float-orb-2 25s ease-in-out infinite;
+}
+
+.floating-orb-3 {
+  width: 350px;
+  height: 350px;
+  background: var(--orb-3);
+  bottom: -5%;
+  left: 30%;
+  animation: float-orb-3 22s ease-in-out infinite;
+}
+
+@keyframes float-orb-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(60px, 80px) scale(1.1); }
+  66% { transform: translate(-30px, 40px) scale(0.95); }
+}
+
+@keyframes float-orb-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(-80px, -60px) scale(1.05); }
+  66% { transform: translate(40px, -20px) scale(0.9); }
+}
+
+@keyframes float-orb-3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(50px, -70px) scale(1.08); }
+  66% { transform: translate(-60px, 30px) scale(0.92); }
+}
+
+/* ===== Section Utilities ===== */
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-container {
+    padding: 6rem 2rem;
+  }
+}
+
+.section-heading {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 3.5rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .section-heading {
+    font-size: 3rem;
+  }
+}
+
+/* ===== Gradient Text ===== */
+.gradient-text {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ===== Skill Bar Animation ===== */
+.skill-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 12px var(--accent-glow);
+}
+
+/* ===== Timeline ===== */
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-2));
+  transform: translateX(-50%);
+}
+
+@media (max-width: 767px) {
+  .timeline-line {
+    left: 20px;
+  }
+}
+
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--bg-primary);
+  box-shadow: 0 0 0 3px var(--accent), 0 0 20px var(--accent-glow);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2rem;
+  z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .timeline-dot {
+    left: 20px;
+  }
+}
+
+/* ===== Project Card Tilt ===== */
+.project-card {
+  perspective: 1000px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-card-inner {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-card-inner {
+  transform: rotateY(2deg) rotateX(2deg);
+}
+
+/* ===== Profile Hexagon Mask ===== */
+.profile-hex {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* ===== Glow Button ===== */
+.glow-btn {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  transition: all 0.3s ease;
+}
+
+.glow-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.glow-btn:hover::before {
+  left: 100%;
+}
+
+.glow-btn:hover {
+  box-shadow: 0 0 30px var(--accent-glow), 0 0 60px var(--accent-glow);
+  transform: translateY(-2px);
+}
+
+/* ===== Touch Hint Pulse ===== */
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 0.8; }
+  50% { transform: scale(1.2); opacity: 0.3; }
+  100% { transform: scale(0.8); opacity: 0.8; }
+}
+
+.pulse-hint {
+  animation: pulse-ring 2s ease-in-out infinite;
+}
+
+/* ===== Resume Button ===== */
+.resume-btn {
+  transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+  box-shadow: 0 0 20px var(--accent-glow);
+  transform: translateY(-2px);
+}
+
+/* ===== Section Separator ===== */
+section + section {
+  border-top: 1px solid var(--border);
+  border-image: linear-gradient(90deg, transparent 5%, var(--border) 30%, var(--border) 70%, transparent 95%) 1;
+}
+
+/* ===== Footer Spacing ===== */
+footer, #contact {
+  padding-bottom: 2rem;
+}
