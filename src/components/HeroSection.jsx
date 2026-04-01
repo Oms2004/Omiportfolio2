@@ -65,7 +65,7 @@ export default function HeroSection() {
             {t('hero.cta')}
           </a>
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/17_Uy5Q0ZjUb3JJ-6RlJ7WSwhCMbnKeYh/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3.5 rounded-full font-semibold text-base glass resume-btn"
