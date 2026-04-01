@@ -1,0 +1,73 @@
+﻿node.exe : Vercel CLI 
+44.5.5
+At C:\Program Files\nod
+ejs\npx.ps1:29 char:3
++   & $NODE_EXE 
+$NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Vercel CLI 44   
+ .5.5:String) [], R    
+emoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Retrieving projectΓÇª
+Deploying oms-projects-
+e0afee6e/portfolio
+Uploading 
+[--------------------] 
+(0.0B/1.2MB)
+Uploading 
+[=====---------------] 
+(315.1KB/1.2MB)
+Uploading 
+[==========----------] 
+(619.1KB/1.2MB)
+Uploading 
+[===============-----] 
+(923.1KB/1.2MB)
+Uploading 
+[====================] 
+(1.2MB/1.2MB)
+Inspect: https://vercel
+.com/oms-projects-e0afe
+e6e/portfolio/6sURa6AXF
+ZNvVuVmPo5u2o9RuwDJ 
+[4s]
+Preview: https://portfo
+lio-4lk24y04n-oms-proje
+cts-e0afee6e.vercel.app
+ [4s]
+Building
+2026-03-31T18:33:58.228
+Z  Running build in 
+Washington, D.C., USA 
+(East) ΓÇô iad1
+2026-03-31T18:33:58.229
+Z  Build machine 
+configuration: 2 
+cores, 8 GB
+2026-03-31T18:33:58.347
+Z  Retrieving list of 
+deployment files...
+2026-03-31T18:33:58.350
+Z  Previous build 
+caches not available.
+2026-03-31T18:33:58.807
+Z  Downloading 38 
+deployment files...
+2026-03-31T18:33:59.418
+Z  Running "vercel 
+build"
+2026-03-31T18:34:00.087
+Z  Vercel CLI 50.37.3
+2026-03-31T18:34:00.601
+Z  Installing 
+dependencies...
+Error: Command "npm 
+install" exited with 1
+https://portfolio-4lk24y04n-oms-projects-e0afee6e.vercel.app

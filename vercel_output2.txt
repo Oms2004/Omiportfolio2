@@ -1,0 +1,89 @@
+﻿node.exe : Vercel CLI 
+44.5.5
+At C:\Program Files\nod
+ejs\npx.ps1:29 char:3
++   & $NODE_EXE 
+$NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Vercel CLI 44   
+ .5.5:String) [], R    
+emoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Retrieving projectΓÇª
+Deploying oms-projects-
+e0afee6e/portfolio
+Uploading 
+[--------------------] 
+(0.0B/2.3KB)
+Uploading 
+[=======-------------] 
+(876.0B/2.3KB)
+Uploading 
+[====================] 
+(2.3KB/2.3KB)
+Inspect: https://vercel
+.com/oms-projects-e0afe
+e6e/portfolio/59Y9w97QG
+ZkCZePgjWGiXfNtHyK1 
+[2s]
+Production: https://por
+tfolio-4u6jqse1b-oms-pr
+ojects-e0afee6e.vercel.
+app [2s]
+Building
+2026-03-31T18:35:23.871
+Z  Running build in 
+Washington, D.C., USA 
+(East) ΓÇô iad1
+2026-03-31T18:35:23.872
+Z  Build machine 
+configuration: 2 
+cores, 8 GB
+2026-03-31T18:35:23.991
+Z  Retrieving list of 
+deployment files...
+2026-03-31T18:35:23.994
+Z  Previous build 
+caches not available.
+2026-03-31T18:35:24.448
+Z  Downloading 40 
+deployment files...
+2026-03-31T18:35:25.268
+Z  Warning: Detected 
+"engines": { "node": 
+">=20.0.0" } in your 
+`package.json` that 
+will automatically 
+upgrade when a new 
+major Node.js Version 
+is released. Learn 
+More: https://vercel.li
+nk/node-version
+2026-03-31T18:35:25.269
+Z  Running "vercel 
+build"
+2026-03-31T18:35:25.966
+Z  Vercel CLI 50.37.3
+2026-03-31T18:35:26.542
+Z  Warning: Detected 
+"engines": { "node": 
+">=20.0.0" } in your 
+`package.json` that 
+will automatically 
+upgrade when a new 
+major Node.js Version 
+is released. Learn 
+More: https://vercel.li
+nk/node-version
+2026-03-31T18:35:26.550
+Z  Installing 
+dependencies...
+Error: Command "npm 
+install" exited with 1
+https://portfolio-4u6jqse1b-oms-projects-e0afee6e.vercel.app
