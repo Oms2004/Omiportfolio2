@@ -95,19 +95,19 @@
           "link": "https://github.com/Oms2004/HealthSence-AI"
         },
         {
-          "title": "EmpowerAid: NGO Crowdfunding Platform  ",
-          "description": "Built a NGO crowdfunding platform integrating ML-based disease prediction, an NLP chatbot for patient queries, and IoT sensors for real-time health monitor . Developed a web dashboard for visualizing vitals, preventive insights, and personalized health recommendations.",
+          "title": "EmpowerAid: NGO Crowdfunding Platform",
+          "description": "Developed a full-stack crowdfunding platform enabling NGOs to create campaigns and receive donations from supporters. Features include secure JWT-based user & NGO authentication, real-time donation tracking, campaign management dashboard, and transparent fund allocation. Built with a responsive UI for seamless cross-device experience.",
           "tech": [
             "Full Stack",
             "Next.js",
-            " MongoDB",
+            "MongoDB",
             "JWT"
           ],
           "link": "https://github.com/Oms2004/Eco-Fund"
         },
         {
-          "title": "Medichat:Intelligent Medical Chatbot",
-          "description": "Developed Medichat,An AI chatbot leveraging a medical encyclopedia module to deliver accurate solution to medical queries ,Integrated voice recognition for interaction ,userfriendly interface for reliable health guidance.",
+          "title": "Medichat: Intelligent Medical Chatbot",
+          "description": "Developed Medichat, an AI-powered chatbot leveraging a medical encyclopedia module to deliver accurate solutions to medical queries. Integrated voice recognition for hands-free interaction and built a user-friendly interface for reliable health guidance.",
           "tech": [
             "React JS",
             "ML",
@@ -115,14 +115,14 @@
             "NLP",
             "HTML",
             "CSS",
-            "Javascript",
+            "JavaScript",
             "Python"
           ],
           "link": "#"
         },
         {
           "title": "My Virtual Assistant",
-          "description": "Built a (English & Hindi) voice assistant with features like web search, weather/time updates, calculator, and customizable persona. Integrated Google Gemini API, SpeechRecognition, and secure user authentication.",
+          "description": "Built a bilingual (English & Hindi) voice assistant with features like web search, weather/time updates, calculator, and customizable persona. Integrated Google Gemini API, SpeechRecognition, and secure user authentication.",
           "tech": [
             "React JS",
             "HTML",
@@ -135,7 +135,7 @@
         },
         {
           "title": "Movie Recommendation System",
-          "description": "A ML-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts",
+          "description": "A ML-based web application that provides personalized movie recommendations based on genres, user preferences, and popular trends. Features content-based filtering with an intuitive, smooth UI for movie enthusiasts.",
           "tech": [
             "React JS",
             "ML",
@@ -148,13 +148,14 @@
         },
         {
           "title": "Developer Portfolio",
-          "description": "A modern, responsive portfolio website showcasing projects and skills with smooth animations and an interactive UI.",
+          "description": "A modern, responsive portfolio website with a game-engine-inspired design featuring an interactive 3D orb, dark/light mode, bilingual support (EN/DE), and smooth Framer Motion animations throughout.",
           "tech": [
             "React",
+            "Three.js",
             "Framer Motion",
             "Tailwind CSS"
           ],
-          "link": "https://omiportfolio.vercel.app"
+          "link": "https://github.com/Oms2004/Omiportfolio2"
         }
       ]
     },
@@ -284,28 +285,70 @@
             "NLP",
             "JavaScript"
           ],
-          "link": "#"
+          "link": "https://github.com/Oms2004/HealthSence-AI"
         },
         {
           "title": "EmpowerAid: NGO Crowdfunding Plattform",
-          "description": "Entwicklung einer Crowdfunding-Plattform für NGOs mit Benutzer- und NGO-Login, sicheren Spendenfunktionen und transparenter Projektunterstützung.",
+          "description": "Entwicklung einer Full-Stack-Crowdfunding-Plattform für NGOs mit sicherer JWT-Authentifizierung, Echtzeit-Spendenverfolgung, Kampagnenmanagement-Dashboard und transparenter Mittelverteilung. Responsive UI für nahtlose Nutzung auf allen Geräten.",
           "tech": [
             "Full Stack",
             "Next.js",
             "MongoDB",
             "JWT"
           ],
+          "link": "https://github.com/Oms2004/Eco-Fund"
+        },
+        {
+          "title": "Medichat: Intelligenter Medizin-Chatbot",
+          "description": "Entwicklung von Medichat, einem KI-gestützten Chatbot mit medizinischem Enzyklopädie-Modul für präzise Antworten auf medizinische Fragen. Integration von Spracherkennung für freihändige Interaktion und eine benutzerfreundliche Oberfläche.",
+          "tech": [
+            "React JS",
+            "ML",
+            "AI",
+            "NLP",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Python"
+          ],
           "link": "#"
         },
         {
-          "title": "Developer Portfolio",
-          "description": "Eine moderne, responsive Portfolio-Website zur Präsentation von Projekten und Fähigkeiten mit flüssigen Animationen und interaktiver Benutzeroberfläche.",
+          "title": "Mein virtueller Assistent",
+          "description": "Entwicklung eines zweisprachigen (Englisch & Hindi) Sprachassistenten mit Websuche, Wetter-/Zeitaktualisierungen, Taschenrechner und anpassbarer Persönlichkeit. Integration von Google Gemini API und Spracherkennung.",
+          "tech": [
+            "React JS",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Google Gemini API",
+            "SpeechRecognition"
+          ],
+          "link": "https://github.com/Oms2004/virtualassist"
+        },
+        {
+          "title": "Film-Empfehlungssystem",
+          "description": "Eine ML-basierte Webanwendung für personalisierte Filmempfehlungen basierend auf Genres, Nutzerpräferenzen und beliebten Trends. Inhaltsbasierte Filterung mit intuitiver, flüssiger Benutzeroberfläche.",
+          "tech": [
+            "React JS",
+            "ML",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "NLP"
+          ],
+          "link": "#"
+        },
+        {
+          "title": "Entwickler-Portfolio",
+          "description": "Eine moderne, responsive Portfolio-Website mit spieleinspiriertem Design, interaktiver 3D-Kugel, Hell-/Dunkelmodus, zweisprachiger Unterstützung (EN/DE) und flüssigen Framer Motion Animationen.",
           "tech": [
             "React",
+            "Three.js",
             "Framer Motion",
             "Tailwind CSS"
           ],
-          "link": "https://omiportfolio.vercel.app"
+          "link": "https://github.com/Oms2004/Omiportfolio2"
         }
       ]
     },
