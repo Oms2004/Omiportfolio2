@@ -44,7 +44,7 @@ export default function AboutSection() {
                 }}
               >
                 <img
-                  src="/profile.jpg"
+                  src={`${import.meta.env.BASE_URL}profile.jpg`}
                   alt="Om Sawarkar"
                   className="w-full h-full object-cover"
                   loading="lazy"
